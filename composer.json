@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-mailcoach-markdown-editor",
+    "name": "1986webdeveloper/laravel-maillit-markdown-editor",
     "description": "A Toast UI Markdown editor package for Mailcoach",
     "keywords": [
         "spatie",
@@ -22,7 +22,7 @@
         "php": "^8.1",
         "ext-json": "*",
         "scrivo/highlight.php": "^v9.18",
-        "spatie/laravel-mailcoach": "^6.0",
+        "1986webdeveloper/laravel-maillit": "dev-main",
         "spatie/laravel-markdown": "^2.2.4",
         "spatie/laravel-package-tools": "^1.9.2"
     },
