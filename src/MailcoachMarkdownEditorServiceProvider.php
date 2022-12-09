@@ -2,7 +2,7 @@
 
 namespace Spatie\MailcoachMarkdownEditor;
 
-use Livewire\Livewire;
+//use Livewie\Livewire;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Spatie\Mailcoach\Mailcoach;
@@ -17,7 +17,7 @@ class MailcoachMarkdownEditorServiceProvider extends PackageServiceProvider
             ->hasAssets()
             ->hasViews();
 
-        Livewire::component('mailcoach-markdown-editor::editor', Editor::class);
+        //Livewire::component('mailcoach-markdown-editor::editor', Editor::class);
     }
 
     public function bootingPackage()
